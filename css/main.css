@@ -1,0 +1,205 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei";
+}
+.main
+{
+	background: #444 url(../picture/bg.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+section {
+    width: 100%;
+    overflow: hidden;
+}
+#block-nav {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    height: 52px;
+    background-color: #42474B;
+    color: white;
+}
+.container {
+    margin: 0 auto;
+    width: 1140px;
+    height: 100%;
+    z-index: 0;
+}
+#block-nav a {
+    padding: 0 25px;
+    font-size: 18px;
+    line-height: 52px;
+    cursor: pointer;
+    z-index: 1;
+    color: white;
+}
+#block-nav a:hover{
+	background-color: white;
+	color: #42474B;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+#block-intro {
+    height: auto;
+    width: 100%;
+    padding: 60px 0 100px;
+}
+#intro-title {
+    height: 300px;
+    width: 100%;
+    line-height: 300px;
+    text-align: center;
+}
+#myPhoto{
+	/*height: 100px;
+	width: 100px;*/
+	display: inline-block;
+	margin: 0 20px 0px 20px;
+}
+.hello{
+	font-size: 100px;
+	color: yellow;
+	margin-right: 5%;
+
+}
+.world{
+	font-size: 100px;
+	color: yellow;
+	margin-left: 5%;
+}
+#intro-text {
+    display: inline-block;
+    margin: 0 0 0 0;
+    color: white;
+    width:100%;
+}
+.text-left {
+	float: left;
+	margin-left: 20%;
+	cursor: default;
+}
+
+#intro-text li{
+    height: 33px;
+}
+#intro-text div {
+    display: inline-block;
+    width: 550px;
+    margin-left: 120px;
+}
+.text-right{
+	float: right;
+}
+#intro-text > div > p {
+    margin-bottom: 26px;
+}
+#block-skill {
+    height: auto;
+    width: 100%;
+    background-color: #9C58B6;
+    color: #FFFFFF;
+    padding-bottom: 160px;
+}
+#block-skill .skill-title {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+}
+h2 {
+    font-size: 46px;
+    font-weight: normal;
+}
+#block-skill .skills {
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+#block-skill ul {
+    display: inline-block;
+    height: auto;
+    width: 210px;
+    margin: 80px 0 0 56px;
+    border: 2px solid #FFFFFF;
+    font-size: 20px;
+    font-family: "Microsoft YaHei light";
+    text-align: center;
+    vertical-align: top;
+}
+#block-skill li:first-child {
+    background-color: #FFFFFF;
+    color: #333;
+}
+#block-skill li {
+    height: 36px;
+    line-height: 36px;
+}
+li {
+    list-style: none;
+}
+.skills li:hover{
+	background-color: white;
+	color: black;
+	cursor: default;
+}
+
+#block-EXP {
+    padding: 50px 0 100px;
+    width: 100%;
+    background-color: #129DE7;
+    color: #FFFFFF;
+}
+#block-EXP .EXP-title {
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
+#block-EXP .exps {
+    height: auto;
+    width: 100%;
+    margin-top: 25px;
+    overflow: hidden;
+}
+#block-EXP li{
+	font-size: 24px;
+	cursor: default;
+}
+.exps .icon
+{
+	display: inline-block;
+	width: 75px;
+	height: 65px;
+	background-color: #00BFFF;
+	transform: rotate(35deg);
+	margin: 12px 10px;
+	text-align: center;
+	font-size: 26px;
+}
+
+#block-callme {
+    width: 100%;
+    background-color: #ED6461;
+    color: #fff;
+    height: 630px;
+}
+#block-callme > p {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
