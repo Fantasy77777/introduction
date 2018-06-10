@@ -23,6 +23,12 @@ $(function(){
             }, 500);
         return false;
 	});
+    $('#to-work').click(function () {
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+            }, 500);
+        return false;
+    });
 	$('#to-callme').click(function () {
         $('html, body').animate({
             scrollTop: $($.attr(this, 'href')).offset().top

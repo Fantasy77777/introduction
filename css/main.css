@@ -203,3 +203,25 @@ li {
     text-align: center;
     font-size: 30px;
 }
+
+#block-work {
+    padding: 50px 0 100px;
+    width: 100%;
+    background-color: #21ED72;
+    color: #FFFFFF;
+}
+#block-work .work-title {
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#block-work .work-div{
+    margin-left: 15%;
+}
+#block-work .work-div span{
+    font-size: 28px;
+}
+#block-work .work-div div{
+    margin-bottom: 45px;
+}
